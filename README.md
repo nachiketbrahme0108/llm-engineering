@@ -5,7 +5,7 @@ A comprehensive learning and experimentation repository covering various aspects
 ## 📁 Workspace Structure
 
 ### 1. LLM Engineering Basics
-**Path:** `1. llm-engineering-basics/`
+**Path:** `01-llm-engineering-basics/`
 
 Foundational notebooks for getting started with LLM applications:
 - **ollama-website-summarizer.ipynb** - Web scraping and summarization using local Ollama models
@@ -18,7 +18,7 @@ Foundational notebooks for getting started with LLM applications:
 ---
 
 ### 2. Experiments with Frontier Models
-**Path:** `2. experiments-with-frontier-models/`
+**Path:** `02-experiments-with-frontier-models/`
 
 Experiments and applications using cutting-edge frontier LLMs:
 - **frontier-models-api-experiments.ipynb** - API exploration and testing
@@ -36,7 +36,7 @@ Experiments and applications using cutting-edge frontier LLMs:
 ---
 
 ### 3. Experiments with Open Source Models
-**Path:** `3. experiments-with-open-source-models/`
+**Path:** `03-experiments-with-open-source-models/`
 
 Working with open-source LLM ecosystems:
 - **connecting-to-hugging-face.ipynb** - Hugging Face integration and authentication
@@ -47,7 +47,7 @@ Working with open-source LLM ecosystems:
 ---
 
 ### 4. LLM Selection
-**Path:** `4. llm-selection/`
+**Path:** `04-llm-selection/`
 
 Comparative analysis and selection of LLMs for different scenarios:
 - **frontier-llm-compare-python-cpp-converter.ipynb** - Comparing frontier models with Python/C++ implementations
@@ -59,7 +59,7 @@ Comparative analysis and selection of LLMs for different scenarios:
 ---
 
 ### 5. Retrieval-Augmented Generation (RAG)
-**Path:** `5. retrieval-augmented-generation/`
+**Path:** `05-retrieval-augmented-generation/`
 
 Comprehensive RAG pipeline implementations with insurance QA assistant use case:
 
@@ -84,7 +84,7 @@ Comprehensive RAG pipeline implementations with insurance QA assistant use case:
 ---
 
 ### 6. Fine-tuning Frontier Models
-**Path:** `6. fine-tuning-frontier-models/`
+**Path:** `06-fine-tuning-frontier-models/`
 
 Fine-tuning and customization of frontier LLMs:
 
@@ -110,7 +110,7 @@ Fine-tuning and customization of frontier LLMs:
 ---
 
 ### 7. Fine-tuning Open Source Models
-**Path:** `7. fine-tuning-open-source-models/`
+**Path:** `07-fine-tuning-open-source-models/`
 
 Fine-tuning and optimization of open-source LLMs:
 
@@ -130,7 +130,7 @@ Fine-tuning and optimization of open-source LLMs:
 ---
 
 ### 8. Agentic AI Introduction
-**Path:** `8. agentic-ai-introduction/`
+**Path:** `08-agentic-ai-introduction/`
 
 *This folder is currently empty and reserved for future agentic AI implementations.*
 
