@@ -4,7 +4,7 @@ __pycache__/
 *$py.class
 
 # Jupyter Notebook
-.ipynb_checkpoints
+.ipynb_checkpoints/
 
 # Hidden files
 .hidden
@@ -15,24 +15,39 @@ build/
 *.egg-info/
 
 # Virtual environment
+.venv/
 venv/
 env/
-.env/
+
+# Secrets / credentials
+.env
+.env.*
+!.env.example
+.modal.toml
 
 # IDE specific files
 .vscode/
 .idea/
 *.swp
 *.swo
-llm-engineering/.env
+
+# OS files
+.DS_Store
+Thumbs.db
 
 # Gradio files
 .gradio/
 
-# Chroma database
-llm-engineering/5. retrieval-augmented-generation/vector_db/
-llm-engineering/5. retrieval-augmented-generation/preprocessed_db/
-llm-engineering/8. agentic-ai-introduction/products_vectorstore/
-llm-engineering/8. agentic-ai-introduction/*.toml
-llm-engineering/8. agentic-ai-introduction/*.pth
-llm-engineering/8. agentic-ai-introduction/memory.json
+# Generated vector stores (Chroma)
+05-retrieval-augmented-generation/vector_db/
+05-retrieval-augmented-generation/preprocessed_db/
+08-agentic-ai-introduction/products_vectorstore/
+
+# Generated fine-tuning data
+06-fine-tuning-frontier-models/jsonl/*.jsonl
+
+# Model weights / agent state
+*.pth
+*.pt
+*.pkl
+08-agentic-ai-introduction/memory.json
